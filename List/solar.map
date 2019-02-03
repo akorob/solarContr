@@ -1,0 +1,22 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+voltage                                                                           R4,R5        2
+TOP                                                                               R6,R7        2
+GOAL                                                                              R8,R9        2
+DELTA_GOAL                                                                        R10,R11      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+adc_isr                                                                           0x00049    140
+set_leds                                                                          0x000D5    105
+main                                                                              0x0013E    105
